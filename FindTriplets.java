@@ -3,7 +3,7 @@ package functionalproblems;
 public class FindTriplets {
 	public static void main(String[] args) {
 		int[] arr = {0,-5,-3,4,1,2,5};
-		int n = arr.length;
+		int n = arr.length + 1;
 
 	FindTriplets findtriplets = new FindTriplets();
 	findtriplets.tripletCode(arr, n);
